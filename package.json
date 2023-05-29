@@ -1,0 +1,20 @@
+{
+  "name": "xpert-podcast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "hls-server": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  }
+}

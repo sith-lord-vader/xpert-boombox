@@ -1,0 +1,6 @@
+videos/
+node_modules/
+temp/
+.env
+.env.development
+.env.production

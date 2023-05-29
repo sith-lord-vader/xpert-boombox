@@ -1,5 +1,5 @@
 const mediaRouter = require("express").Router();
 
-mediaRouter.post("/upload", (req, res) => {});
+mediaRouter.post("/create", (req, res) => {});
 
 module.exports = mediaRouter;
